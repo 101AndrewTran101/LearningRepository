@@ -1,2 +1,5 @@
-print("Hello, world!")
-print("Please   enter your password")
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+    if x == "banana":
+        break
+    print(x)
